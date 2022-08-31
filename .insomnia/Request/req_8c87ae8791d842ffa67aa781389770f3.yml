@@ -1,0 +1,36 @@
+_id: req_8c87ae8791d842ffa67aa781389770f3
+type: Request
+parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
+modified: 1661969666045
+created: 1661781451065
+url: http://webs.softros.com.br/rest/auth
+name: JWT agulhao
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "empresa": "23827184000244",
+        "filial": "1",
+        "usuario": "adm",
+        "senha": "f1294f35f19846cd012506eadcc13ecda95eb7ddc6c661bc1b9402c4b00eb703"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_940b84814ee843678b3c5b7e92d1e15b
+  - id: pair_fca62ad57b0746cdac8316052ed1c3a8
+    name: integrator
+    value: f43928b3-0e99-4ad5-922f-5e4795a8d5a5
+    description: ""
+authentication: {}
+metaSortKey: -1661781451066
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
