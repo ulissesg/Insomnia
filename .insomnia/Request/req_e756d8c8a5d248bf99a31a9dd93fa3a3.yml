@@ -1,0 +1,40 @@
+_id: req_e756d8c8a5d248bf99a31a9dd93fa3a3
+type: Request
+parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
+modified: 1663250721462
+created: 1663238836854
+url: http://escritorio.softros.com.br/ziconetprovedor/rest/urlappclientes
+name: abre os app
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sdtAppClientes": {
+    		"Acao": "L",
+    		"cliente": {
+    			"ClienteCnpjCpf": "102.205.659-02"
+    		},
+    		"suporte": {
+    			"descricao": "teste",
+    			"fone1": 44999152490,
+    			"fone2": 44998554986,
+    			"dataProblema": "2022-09-13"
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_69a24988ce654a488a16ac1b82d6b421
+authentication: {}
+metaSortKey: -1663238836854
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

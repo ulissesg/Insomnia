@@ -1,7 +1,7 @@
 _id: req_26e401f988584b83a10718c4adc7df3a
 type: Request
 parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
-modified: 1661969700365
+modified: 1663249760520
 created: 1661790218159
 url: http://webs.softros.com.br/rest/urlbancos
 name: verPix agulhao
@@ -14,7 +14,7 @@ body:
     	"sdtBancos": {
     		"acao": "SPC",
     		"pix": {
-    			"avulsaId": "423940"
+    			"avulsaId": "456150"
     		}
     	}
     }
@@ -26,7 +26,7 @@ headers:
   - id: pair_ce926346163a4fec88320209e665d5d2
     name: authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXByZXNhIjoiMTUiLCJmaWxpYWwiOiIxIiwiaW50ZWdyYWRvciI6ImY0MzkyOGIzLTBlOTktNGFkNS05MjJmLTVlNDc5NWE4ZDVhNSIsImV4cFN0ciI6IjMxLzA4LzIyIDE2OjE0Iiwic3ViIjoiLTEiLCJpc3MiOiJodHRwOi8vd2Vicy5zb2Z0cm9zLmNvbS5ici9hdXRoLnN2Yy9yZXN0LyIsImp0aSI6IjdkODhiYjBkLWY1N2ItNDRiZS05ZjQ1LWNiYThkODZlYmM0YyIsImV4cCI6MTY2MTk2MjQ5Mn0.vZlq4_szssi4Y3FmLLMF2ZR-SmYfYMv7CzCQWlIHhp0
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXByZXNhIjoiMTUiLCJmaWxpYWwiOiIxIiwiaW50ZWdyYWRvciI6ImY0MzkyOGIzLTBlOTktNGFkNS05MjJmLTVlNDc5NWE4ZDVhNSIsImV4cFN0ciI6IjE0LzA5LzIyIDA4OjM0Iiwic3ViIjoiLTEiLCJpc3MiOiJodHRwOi8vd2Vicy5zb2Z0cm9zLmNvbS5ici9hdXRoLnN2Yy9yZXN0LyIsImp0aSI6IjE4NWQ0MTNlLTg0YWUtNDhkYS1hZWRlLTE5ZmUwNGFmN2IyNiIsImV4cCI6MTY2MzE0NDQ2OH0._ftVoRv5qnt10wbCtJ8YnQ-ucZPZNcATUuTzD7NHjcM
     description: ""
 authentication: {}
 metaSortKey: -1661790218159
