@@ -1,0 +1,31 @@
+_id: req_0001ab6e8b6c43a4b945a9767a5e6c31
+type: Request
+parentId: wrk_816946e49f3141e29e450ec3f3424606
+modified: 1664903381592
+created: 1661890869496
+url: http://sistema.zninternet.com.br/rest/hookSicrediPix
+name: teste pix producao
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"PixId": "5c275df96ed04edb9c5d88393e50581d",
+    	"PixSts": "Concluida",
+    	"PixUltUpdate": "14012000"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6c96244a06944321aa06d7e2557da555
+authentication: {}
+metaSortKey: -1661890869496
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

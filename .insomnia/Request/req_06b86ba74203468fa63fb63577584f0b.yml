@@ -1,0 +1,33 @@
+_id: req_06b86ba74203468fa63fb63577584f0b
+type: Request
+parentId: wrk_816946e49f3141e29e450ec3f3424606
+modified: 1664903379127
+created: 1659958789702
+url: http://klicanet.com.br/rest/LiberaOnuAutomaticoWS
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"SdtChave": "39.790.421/0001-07"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2af61154d5504bdc91a618afda7ec375
+  - id: pair_5bfddcd93e4b40d99e52fcbaa2b44940
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1659958789702
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
