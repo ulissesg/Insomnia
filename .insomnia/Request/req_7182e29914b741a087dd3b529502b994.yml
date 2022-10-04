@@ -1,10 +1,10 @@
-_id: req_26e401f988584b83a10718c4adc7df3a
+_id: req_7182e29914b741a087dd3b529502b994
 type: Request
 parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
-modified: 1664903207827
-created: 1661790218159
+modified: 1664903224368
+created: 1664903197802
 url: http://webs.softros.com.br/rest/urlbancos
-name: verPix agulhao
+name: criaPix agulhao
 description: ""
 method: POST
 body:
@@ -14,7 +14,13 @@ body:
     	"sdtBancos": {
     		"acao": "SPC",
     		"pix": {
-    			"avulsaId": "1"
+    			"avulsaId": "1",
+    			"pixValor": "0.01",
+    			"pixDesc": "teste",
+    			"segundos": 288000,
+    			"contasId": 1,
+    			"pagamentoMultiplo": true,
+    			"maxPagamentos": 2
     		}
     	}
     }
@@ -24,12 +30,12 @@ headers:
     value: application/json
     id: pair_5d87c6551cd149bc82e156560e017c9d
   - id: pair_ce926346163a4fec88320209e665d5d2
-    name: authorization
+    name: Authorization
     value: Bearer
       eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXByZXNhIjoiMTUiLCJmaWxpYWwiOiIxIiwiaW50ZWdyYWRvciI6ImY0MzkyOGIzLTBlOTktNGFkNS05MjJmLTVlNDc5NWE4ZDVhNSIsImV4cFN0ciI6IjA0LzEwLzIyIDE1OjAxIiwic3ViIjoiLTEiLCJpc3MiOiJodHRwOi8vd2Vicy5zb2Z0cm9zLmNvbS5ici9hdXRoLnN2Yy9yZXN0LyIsImp0aSI6ImU2YjliNGM4LTJkNWEtNDBhZi04YTRiLTBlYzU4ZTYyOTkzYyIsImV4cCI6MTY2NDg5NTY2M30.ooXk1ZVE3tkVA__pXpi1uVhLtDIBn9gRiREhnDhvQNQ
     description: ""
 authentication: {}
-metaSortKey: -1661790218159
+metaSortKey: -1661785834612.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
