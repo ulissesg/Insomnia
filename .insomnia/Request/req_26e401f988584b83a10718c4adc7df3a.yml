@@ -1,7 +1,7 @@
 _id: req_26e401f988584b83a10718c4adc7df3a
 type: Request
 parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
-modified: 1664903207827
+modified: 1665667341751
 created: 1661790218159
 url: http://webs.softros.com.br/rest/urlbancos
 name: verPix agulhao
@@ -14,7 +14,7 @@ body:
     	"sdtBancos": {
     		"acao": "SPC",
     		"pix": {
-    			"avulsaId": "1"
+    			"avulsaId": "402667"
     		}
     	}
     }

@@ -1,7 +1,7 @@
 _id: req_7182e29914b741a087dd3b529502b994
 type: Request
 parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
-modified: 1664903224368
+modified: 1665667306561
 created: 1664903197802
 url: http://webs.softros.com.br/rest/urlbancos
 name: criaPix agulhao
@@ -9,20 +9,365 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
     	"sdtBancos": {
     		"acao": "SPC",
     		"pix": {
     			"avulsaId": "1",
-    			"pixValor": "0.01",
+    			"pixValor": "0,01",
     			"pixDesc": "teste",
-    			"segundos": 288000,
-    			"contasId": 1,
-    			"pagamentoMultiplo": true,
-    			"maxPagamentos": 2
+    			"segundos": 28800,
+    			"contasId": 1
     		}
     	}
+    }{
+    	"data": [
+    		{
+    			"status": "ok",
+    			"id": "78ae7047-0c2f-47d2-adef-81b03e8be062"
+    		},
+    		{
+    			"id": "eaea40fa-8fc2-4ab0-89ad-ce712d827e61",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "14f50399-6524-4832-8553-806cec473e26",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "5a40f9b6-4060-42b3-8c11-0f42915bc660",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "29a9c529-1cd6-40b1-9b53-b440d0991ac1",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "19e6ca05-c7bc-4ef4-8373-7b29e15e13a0",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "00cb927a-12f9-47b6-b73e-7729fc9d4775",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "8ec57788-1286-4916-9ef3-7c4d6e1294a0",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "a9cdd8e3-209c-487d-b408-23d8d8ec6d1b",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "74c6251d-12db-44d9-8481-4f434d4a92a6",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "1f626dd1-ed07-49ed-9bbc-d117f5e23442"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "6a092ce2-9b16-41fe-b068-17643de8363d"
+    		},
+    		{
+    			"id": "38f06f2a-6c60-47c2-b15e-27be4547de09",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "e3e6e860-387c-467c-9021-19c4d230e151",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "46ab9c00-2a98-412e-abc8-828064109329",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "999c31df-ccf1-4207-aa65-53d1888dc93a",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "6db2620a-5bc1-4c3e-af67-c0c4b4a2ad28"
+    		},
+    		{
+    			"id": "018fe2a4-fbe9-4ca0-8b17-1166b2dc2d5e",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "f167c7b7-2134-4868-84c6-40e9c6c0751d",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "4fdbfb08-1793-4737-b820-60200cdb64a8",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "efc96579-e8c2-46fc-aff1-102640408057",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "4d07ee88-98d0-4328-aa14-080a6e7406e8"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "f27293b7-0215-4bf3-a7d2-0136753a32b6"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "3d740370-f902-4f23-af62-c57057675635"
+    		},
+    		{
+    			"id": "ade5c5d0-3504-4ff8-913e-b051e446d44a",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "4c37a7df-29f7-4bfb-96a4-d64716a317f8"
+    		},
+    		{
+    			"id": "719a3d75-4c49-4680-8ff8-0c20b19ebaab",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "914aa877-b840-4f6b-9389-8d89ee81ed62",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "d014e78d-d55b-4ad2-bf70-08f17259a494",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "f9562690-8a86-426b-b61c-d6173522bcfb",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "7ede2615-4ecf-4d3f-9e31-c10ada4e238e",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "8c28ba57-561d-45e3-b00b-037a02620c06"
+    		},
+    		{
+    			"id": "00580659-fca8-466e-b6b2-05f4f06d8f59",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "304e5ca5-d927-4b49-af1b-df380e1a7585",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "dcb3ac58-62f8-425f-bf32-b5384acaf934",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "ecdc0869-831f-4d49-9604-052330b8cb12",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "8e265942-e434-4651-97f0-9afe4bee201e",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "5931cb79-0bdf-4f68-9f23-0eca9847c7c3",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "0273b7dc-ecbb-47f2-88e5-b9da72a79cc8"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "b50ba7ae-0bed-403e-bc5b-b64987a0ae96"
+    		},
+    		{
+    			"id": "be9221b8-d335-4fe3-8bba-5152463fa4e2",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "a841cf71-33d8-4bf8-bd08-4e85bae7eb98",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "d3b6444b-cbd0-4767-a765-379f3abbdda9"
+    		},
+    		{
+    			"id": "c85361b0-071d-4103-8592-28743e292de5",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "a3d3a426-62df-441b-b204-409b86b77992",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "57f28432-7ed5-438e-b22a-c3e66da58cf8",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "f31872af-370d-4a34-bb2b-5c887ed05467",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "error",
+    			"message": "There was an internal error with the FCM server. This is likely not an issue with your code nor Expo. Try re-sending the notification later.",
+    			"details": {
+    				"error": "ProviderError",
+    				"fault": "fcm",
+    				"fcm": {
+    					"httpStatus": 502,
+    					"response": "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 502 (Server Error)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>502.</b> <ins>That’s an error.</ins>\n  <p>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.  <ins>That’s all we know.</ins>\n"
+    				}
+    			}
+    		},
+    		{
+    			"id": "146f9213-b7a5-49c3-ba1c-158f9d703992",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "27504b4b-a763-4c99-8a40-f7619dc46ce4",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "5cb011c6-09a0-4c1b-9f41-8d4544e4c65f"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "38abbae9-d670-4698-80f4-3f1ec8b49ca9"
+    		},
+    		{
+    			"id": "a5c4fbb1-fb9a-4abb-834c-8fc8e0e6f218",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "14cc344c-ed6e-4cbc-8149-c62f1a812ad1",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "efedb361-1da3-4d2e-945a-fbd32c519c2e"
+    		},
+    		{
+    			"id": "c973ca84-aa9f-4bbc-a800-250f8a5a24d1",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "error",
+    			"message": "The recipient device is not registered with FCM.",
+    			"details": {
+    				"error": "DeviceNotRegistered",
+    				"fault": "developer"
+    			}
+    		},
+    		{
+    			"id": "fe82f53e-f3e2-4899-83a7-8b34cb85b897",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "2f48a253-60ce-47af-8260-a733e924ccf9",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "1811dc80-eafa-4b17-96e4-55a111c9c7c8",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "29c0efef-880c-49c8-b389-86aa25f3f2c2",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "89cc18c2-af7e-49ac-8d27-b19922d02be7",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "f0e0c048-880b-44b7-9abe-61ab13edafeb",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "ff6a2355-4e40-48b4-9dc0-8b32cd688e27",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "9988224f-d24c-45e9-8084-94f510560ec6",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "6579d151-023f-4c49-9134-80af6b6539f7",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "975f54d2-3f83-4f30-b1b5-dbf67df4d689",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "5746a397-6121-480d-8d2c-8562ef98c847",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "2d864128-3f3b-4afa-9a69-721715cbcbfe",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "3b9111ad-e028-4d85-a979-be75d23e1bf1"
+    		},
+    		{
+    			"id": "a1c7546a-310c-4370-a061-55b945aa5b41",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "27ca48c7-7528-46a3-b9c5-a7be1f0af7f0",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "dce5fca2-b835-42df-aeb5-e163f3ab44ea",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "422b761d-9099-4aed-b35c-107275771bfc"
+    		},
+    		{
+    			"id": "1d8c1350-9e57-4f0f-a5a0-94a9a895ab5d",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "f9ed7cff-9861-472b-b876-be55e6ef17cf",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "4f4ffa1f-b91f-4e54-9c7a-56f55f68374a",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "23604fd6-3575-4398-a8ab-3ffbc2b5a616",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "489f0033-0d7e-4891-bfd5-8f802bc13787",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "47776d15-284d-4c78-8fed-4e59514a4dc0",
+    			"status": "ok"
+    		},
+    		{
+    			"status": "ok",
+    			"id": "f98f49cf-afe8-4c01-ba10-53cfe091ae11"
+    		},
+    		{
+    			"id": "9750d043-8a46-45b9-8cbd-389c3e80b816",
+    			"status": "ok"
+    		},
+    		{
+    			"id": "8010effb-a1b7-4f8f-99e4-31073de4c6f5",
+    			"status": "ok"
+    		}
+    	]
     }
 parameters: []
 headers:
