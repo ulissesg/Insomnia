@@ -1,0 +1,38 @@
+_id: req_250cabedf3364249a4a91b5a64b46c5f
+type: Request
+parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
+modified: 1666271042643
+created: 1666211316712
+url: http://escritorio.softros.com.br/Locacao.NetEnvironment/rest/urlLocacao
+name: addOne Locacao
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"SDTLocacaoUrl": {
+    		"acao": "26",
+    		"locacao": {
+    			"LocacaoID": "642"
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cf69b786c9b04d069bac466f0bc038b9
+  - id: pair_3f53e2b4d3a34aa3b2bced6256c7f87e
+    name: EMPRESAID
+    value: 27.783.806/0001-50
+    description: ""
+authentication: {}
+metaSortKey: -1666211316712
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

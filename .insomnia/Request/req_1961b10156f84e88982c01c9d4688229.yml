@@ -1,9 +1,9 @@
 _id: req_1961b10156f84e88982c01c9d4688229
 type: Request
 parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
-modified: 1665749535750
+modified: 1666271029502
 created: 1664997416322
-url: http://escritorio.softros.com.br/Versoes/rest/UrlApi
+url: http://escritorio.softros.com.br/versoes/rest/urlapi
 name: API Versoes
 description: ""
 method: POST
