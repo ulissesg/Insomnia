@@ -1,34 +1,30 @@
-_id: req_250cabedf3364249a4a91b5a64b46c5f
+_id: req_fb1fb859863049d4b81c988735b00f30
 type: Request
 parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
-modified: 1666619534963
-created: 1666211316712
-url: http://escritorio.softros.com.br/Locacao.NetEnvironment/rest/urlLocacao
-name: addOne Locacao
+modified: 1666284580493
+created: 1666284411834
+url: http://sandbox-api.myprimepass.com/token
+name: token primepass
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"SDTLocacaoUrl": {
-    		"acao": "26",
-    		"locacao": {
-    			"LocacaoID": "642"
-    		}
-    	}
+    	"grant_type": "client_credentials"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_cf69b786c9b04d069bac466f0bc038b9
-  - id: pair_3f53e2b4d3a34aa3b2bced6256c7f87e
-    name: EMPRESAID
-    value: 27.783.806/0001-50
-    description: ""
-authentication: {}
-metaSortKey: -1666211316712
+authentication:
+  type: basic
+  useISO88591: true
+  disabled: false
+  username: a51695eb-4330-4787-8ada-e62d3c0b
+  password: 656f47a4-b331-40b5-b28c-0f5bf383
+metaSortKey: -1665604366517
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

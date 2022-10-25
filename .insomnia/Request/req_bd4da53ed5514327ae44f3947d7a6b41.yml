@@ -1,0 +1,26 @@
+_id: req_bd4da53ed5514327ae44f3947d7a6b41
+type: Request
+parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
+modified: 1666698543518
+created: 1666641430700
+url: http://escritorio.softros.com.br/ziconetprovedorulisses/OAuth/userinfo
+name: User Info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5f0b6a79300b4897a676bd5c483f8098
+    name: "Authorization "
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRfaWQiOiI1ZDU3NGI3YS01M2EyLTExZWQtYmRjMy0wMjQyYWMxMjAwMDIiLCJjbGllbnRfc2VjcmV0IjoiNjc3NmUzNTQtNTNhMi0xMWVkLWJkYzMtMDI0MmFjMTIwMDAyIiwiZXhwU3RyIjoiMjUvMTAvMjIgMDk6MjIiLCJzdWIiOiI3N2IyNmJjYS1mY2UzLTRhYjEtODAxMy0zNGQ0Nzg4Zjk0YzMiLCJpc3MiOiJodHRwOi8vZXNjcml0b3Jpby5zb2Z0cm9zLmNvbS5ici96aWNvbmV0cHJvdmVkb3J1bGlzc2VzL29hdXRoLyIsImp0aSI6ImQ0ZTQxZWNhLTFjZTktNDUwOC05ZmYyLTZjODAwNDE2ZmU4ZiIsImV4cCI6MTY2NjY4OTc2NX0.ZWQxIXEz99-VCMAI6wt9l8SUP6WvdrJaHJLFuhsiYZ4
+    description: ""
+authentication: {}
+metaSortKey: -1666535883294.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

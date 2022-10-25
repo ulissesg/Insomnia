@@ -1,0 +1,40 @@
+_id: req_2fce414cae4c4703b3146e64e2aaad81
+type: Request
+parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
+modified: 1666619531598
+created: 1666284990902
+url: http://sandbox-api.myprimepass.com/oauth/partner/00002/active
+name: criar usuario PrimePass
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"partner_type": "vip",
+      "partner_contract_id": "00002",
+    	"bundles": [
+    		"24f798fc-411a-44c5-95c0-2dc397d1cb4d"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_62ef2bebd9c9462f965067317af94ea6
+  - id: pair_33dcf466d7044325b2f86fdb646eb3a1
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJhNTE2OTVlYi00MzMwLTQ3ODctOGFkYS1lNjJkM2MwYiIsImp0aSI6ImUwMDhhYTI3MWRhYjA1NjA0NjVmMjk2Yzc0N2ZiMTA1ODVhMTU0MzkzYjlhZWM5M2EzMWQ4YmE2MDQ0NTBlOWEyMWQyZTNlMzI1MDcxNWMyIiwiaWF0IjoxNjY2MzQ4NzQ3LCJuYmYiOjE2NjYzNDg3NDcsImV4cCI6MTY2NjM1MjM0Nywic3ViIjoiIiwic2NvcGVzIjpbXX0.Thv1gldHDQ96KvBEoiKobU_Q5MGvej7cw0yUqn-OVJ09wau__tVJAge0O_52Ahk37QBkuC7sE-me-x9tSzdmabvlm7oLv4XSPEzVrP8-JSpEq8NKwSUJ0YVSKl3msP1vTfMPHML_90wJ7pQISku0_QhqlL_xilFffgkGyDulmt2yMWiGr7N0pmGscfjUCoW2WTwzKm-AE3nxoPI4MRwgFbBn-PuJPXFZWiPOrZ-dxDREKHzmDHWxPIMjFiwVbPGRuiJNOJuqLzdFI_KwjYhzRXvw2SLsMvoVNnxG_kgpW1vLeTWM6OG4XgFTNGWK7MTWJemZvzvg2Xl_fpLq3KE0gw
+    description: ""
+authentication:
+  type: bearer
+  disabled: true
+metaSortKey: -1666284990902
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

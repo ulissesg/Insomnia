@@ -1,0 +1,39 @@
+_id: req_fcd397cc7be844fe86a9316957460df2
+type: Request
+parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
+modified: 1666619533540
+created: 1666283820161
+url: http://sandbox-api.myprimepass.com/token
+name: tokenPrimePass
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"grant_type": "client_credentials"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_97d9185cb9d1406484e03163d29ba4dd
+  - id: pair_5d2cfe0bc3c94fe393925b853121fe4f
+    name: Authorization
+    value: Basic
+      YTUxNjk1ZWItNDMzMC00Nzg3LThhZGEtZTYyZDNjMGI6NjU2ZjQ3YTQtYjMzMS00MGI1LWIyOGMtMGY1YmYzODM=
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: ""
+metaSortKey: -1666283820161
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

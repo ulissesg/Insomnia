@@ -1,0 +1,33 @@
+_id: req_4b04bcce656c4b4f9ac8335b7c9d9737
+type: Request
+parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
+modified: 1666698360059
+created: 1666635942154
+url: http://escritorio.softros.com.br/ziconetprovedorulisses/oauth/AccessToken
+name: Acess Token Oauth ZN
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"grant_type": "authorization_code",
+    	"redirect_uri": "null",
+    	"client_id": "5d574b7a-53a2-11ed-bdc3-0242ac120002",
+    	"client_secret": "6776e354-53a2-11ed-bdc3-0242ac120002",
+    	"code": "77b26bca-fce3-4ab1-8013-34d4788f94c3"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_49d04a37e6944f259a7b1bdf2607f867
+authentication: {}
+metaSortKey: -1666452252497
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
