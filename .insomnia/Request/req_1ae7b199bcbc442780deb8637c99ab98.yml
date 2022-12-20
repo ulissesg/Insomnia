@@ -1,20 +1,21 @@
-_id: req_250cabedf3364249a4a91b5a64b46c5f
+_id: req_1ae7b199bcbc442780deb8637c99ab98
 type: Request
 parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
-modified: 1670948921206
-created: 1666211316712
-url: http://escritorio.softros.com.br/Locacao.NetEnvironment/rest/urlLocacao
-name: addOne Locacao
+modified: 1671131945577
+created: 1670948553911
+url: http://escritorio.softros.com.br/Locacao.NetEnvironment/rest/urlempresa
+name: Lista clientes locacao
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"SDTLocacaoUrl": {
-    		"acao": "26",
-    		"locacao": {
-    			"LocacaoID": "642"
+    	"SDTEmpresa": {
+    		"acao": "3",
+    		"Cliente": {
+    			"quantidade": 500,
+    			"skip": 0
     		}
     	}
     }
@@ -22,13 +23,13 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_cf69b786c9b04d069bac466f0bc038b9
-  - id: pair_3f53e2b4d3a34aa3b2bced6256c7f87e
+    id: pair_093d8536879540548e81da532b32e65e
+  - id: pair_c40b0b9071344147a2d8f6f7e15d9113
     name: EMPRESAID
     value: 27.783.806/0001-50
     description: ""
 authentication: {}
-metaSortKey: -1666211316712
+metaSortKey: -1670948553911
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

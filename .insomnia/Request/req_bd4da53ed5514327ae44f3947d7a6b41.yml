@@ -1,9 +1,9 @@
 _id: req_bd4da53ed5514327ae44f3947d7a6b41
 type: Request
 parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
-modified: 1666698543518
+modified: 1667329045202
 created: 1666641430700
-url: http://escritorio.softros.com.br/ziconetprovedorulisses/OAuth/userinfo
+url: https://sistema.zninternet.com.br/OAuth/userinfo
 name: User Info
 description: ""
 method: GET
@@ -13,7 +13,7 @@ headers:
   - id: pair_5f0b6a79300b4897a676bd5c483f8098
     name: "Authorization "
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRfaWQiOiI1ZDU3NGI3YS01M2EyLTExZWQtYmRjMy0wMjQyYWMxMjAwMDIiLCJjbGllbnRfc2VjcmV0IjoiNjc3NmUzNTQtNTNhMi0xMWVkLWJkYzMtMDI0MmFjMTIwMDAyIiwiZXhwU3RyIjoiMjUvMTAvMjIgMDk6MjIiLCJzdWIiOiI3N2IyNmJjYS1mY2UzLTRhYjEtODAxMy0zNGQ0Nzg4Zjk0YzMiLCJpc3MiOiJodHRwOi8vZXNjcml0b3Jpby5zb2Z0cm9zLmNvbS5ici96aWNvbmV0cHJvdmVkb3J1bGlzc2VzL29hdXRoLyIsImp0aSI6ImQ0ZTQxZWNhLTFjZTktNDUwOC05ZmYyLTZjODAwNDE2ZmU4ZiIsImV4cCI6MTY2NjY4OTc2NX0.ZWQxIXEz99-VCMAI6wt9l8SUP6WvdrJaHJLFuhsiYZ4
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRfaWQiOiJhZGVhNzExMC01OTBjLTExZWQtOWI2YS0wMjQyYWMxMjAwMDIiLCJjbGllbnRfc2VjcmV0IjoiNGY1YmNkMTQtNTkwZC0xMWVkLTliNmEtMDI0MmFjMTIwMDAyIiwiZXhwU3RyIjoiMDEvMTEvMjIgMTY6NTYiLCJzdWIiOiI0NTg3MTkzNS01MWM2LTRkMTctYmI0OS00YTlhMWRhN2JhNzciLCJpc3MiOiJodHRwczovL3Npc3RlbWEuem5pbnRlcm5ldC5jb20uYnIvb2F1dGgvIiwianRpIjoiZjNiODkyZjAtNjQxMi00MGQ5LWEyNWQtZjQ4ZjM2MDEzN2Q3IiwiZXhwIjoxNjY3MzIxNzk3fQ.xfnMCe7RaU6UNq9Lqnfd_TtUgN9aw6UV-YBqv16u0Uk
     description: ""
 authentication: {}
 metaSortKey: -1666535883294.5

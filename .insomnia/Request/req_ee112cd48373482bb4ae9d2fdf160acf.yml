@@ -1,28 +1,26 @@
-_id: req_1961b10156f84e88982c01c9d4688229
+_id: req_ee112cd48373482bb4ae9d2fdf160acf
 type: Request
 parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
-modified: 1669632243198
-created: 1664997416322
-url: http://escritorio.softros.com.br/versoes/rest/urlapi
-name: API Versoes
+modified: 1670503079399
+created: 1670333800252
+url: http://escritorio.softros.com.br/sicsic_producao/rest/urlgeral
+name: Acao A SIC
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"sdtApi": {
-    		"versaoIDusuario": 212,
-    		"VersaoIDEmpresa": 213
-    	}
+      "SdtRequisicao": {
+        "Acao": "A"
+      }
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_c9fd1fbd2d404665bc55af243be0c5ad
 authentication: {}
-metaSortKey: -1664997416322
+metaSortKey: -1670333800252
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

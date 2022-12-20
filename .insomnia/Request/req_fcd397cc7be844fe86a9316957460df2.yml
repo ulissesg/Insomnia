@@ -1,9 +1,9 @@
 _id: req_fcd397cc7be844fe86a9316957460df2
 type: Request
 parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
-modified: 1666619533540
+modified: 1671131963253
 created: 1666283820161
-url: http://sandbox-api.myprimepass.com/token
+url: https://api-prod.primepass.com.br/token
 name: tokenPrimePass
 description: ""
 method: POST
@@ -18,17 +18,12 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_97d9185cb9d1406484e03163d29ba4dd
-  - id: pair_5d2cfe0bc3c94fe393925b853121fe4f
-    name: Authorization
-    value: Basic
-      YTUxNjk1ZWItNDMzMC00Nzg3LThhZGEtZTYyZDNjMGI6NjU2ZjQ3YTQtYjMzMS00MGI1LWIyOGMtMGY1YmYzODM=
-    description: ""
 authentication:
   type: basic
-  useISO88591: false
+  useISO88591: true
   disabled: false
-  username: ""
-  password: ""
+  username: d2e5e8eb-15f6-4f20-b762-9a036a61
+  password: d3c28bb5-d423-4f5f-bbc8-cf5e8c08
 metaSortKey: -1666283820161
 isPrivate: false
 settingStoreCookies: true

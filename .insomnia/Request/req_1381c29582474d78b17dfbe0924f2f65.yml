@@ -1,0 +1,34 @@
+_id: req_1381c29582474d78b17dfbe0924f2f65
+type: Request
+parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
+modified: 1670346914223
+created: 1670346833502
+url: http://webs.softros.com.br/rest/urlInfoApp
+name: chave
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+                "SdtRequisicao": {
+                    "EmpresaCodigo": 0,
+                    "FilialCod": 0,
+                    "Acao": "A",
+                    "Objeto": "119557",
+                    "PessoaCod": 0
+                }
+            }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670346833512
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

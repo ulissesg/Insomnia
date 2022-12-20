@@ -1,28 +1,24 @@
-_id: req_1961b10156f84e88982c01c9d4688229
+_id: req_c4dbbf0596a14c4eb687c61f7bfeccbf
 type: Request
 parentId: wrk_33da2fd129ad4505945e970c0f6cbcce
-modified: 1669632243198
-created: 1664997416322
-url: http://escritorio.softros.com.br/versoes/rest/urlapi
-name: API Versoes
+modified: 1669730716301
+created: 1669638845837
+url: http://escritorio.softros.com.br/ziconetprovedorulisses/rest/procedimentosAgendados
+name: Apaga Logs antigos
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"sdtApi": {
-    		"versaoIDusuario": 212,
-    		"VersaoIDEmpresa": 213
-    	}
+    	"Contador": 8
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_c9fd1fbd2d404665bc55af243be0c5ad
 authentication: {}
-metaSortKey: -1664997416322
+metaSortKey: -1669638845837
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
